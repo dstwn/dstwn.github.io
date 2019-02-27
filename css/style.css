@@ -8,6 +8,9 @@ h1 {
   font-size: 80px!important;
   font-weight:lighter;
 }
+a:visited {
+  text-decoration: none;
+}
 .margin {
   margin: 1rem;
 }
@@ -31,7 +34,8 @@ h1 {
   margin-right: 100px;
 }
 .menu {
-  color: white;
+  text-decoration: none;
+  color: white!important;
   margin: 1rem;
   list-style-type: none;
   display: inline-flex;
@@ -182,4 +186,57 @@ td {
 }
 .sticky .menu {
   color: black!important;
+}
+.sticky a{
+  color: black;
+}
+.sticky a:hover {
+  color: #5A98BF;
+}
+.text-contact {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+a {
+  color: white;
+	text-decoration: none!important;
+}
+a:hover {
+  color: black;
+}
+.socialbtns, .socialbtns ul, .socialbtns li{
+	margin: 0;
+	padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .ic{
+	width: 40px;
+    height: 28px;
+	color: #FFF;
+	background-color: #000;
+	padding-top: 12px;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.socialbtns .ic:hover{
+	transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
 }
