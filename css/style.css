@@ -1,4 +1,7 @@
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Roboto';
   margin: 0;
@@ -125,6 +128,12 @@ td {
   background-image: url("/img/pantiku.jpg");
   background-size: cover;
 }
+.porto4 {
+  margin: 10px;
+  width: 50%;
+  background-image: url("/img/planteriumiot.png");
+  background-size: cover;
+}
 td {
   padding: 10px;
 }
@@ -239,4 +248,27 @@ a:hover {
 	-moz-transition: all ease 0.5s;
 	-webkit-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;
+}
+.tn {
+  margin-top: -0px;
+}
+.info {
+  width: 100%
+}
+.pp {
+  width: 400px;
+  height: 350px;
+}
+.info td {
+  width: 50%;
+}
+.tit {
+  color: #5A98BF;
+}
+.ach li {
+  list-style-type: none;
+}
+.margin-about {
+  margin-top: 4rem;
+
 }
